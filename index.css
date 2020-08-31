@@ -155,17 +155,29 @@ input, select {
 .card {
   box-sizing: border-box;
   grid-row-end: span 16;
-  border: 1px solid #009966;
+  border: 1px solid #991700;
   padding: 0.5rem;
   border-radius: 3px;
 }
 
 .form-group {
   margin: 0.5rem 0;
+  height: 4ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.form-label {
-  margin-bottom: 1.25rem;
+.form-input {
+  border-radius: 3px;
+}
+
+.form-submit {
+  background-color: #cc1e00;
+  border: 1px solid #991700;
+  height: 100%;
+  font-size: 1.5rem;
+  border-radius: 3px;
 }
 
 .hide {
@@ -185,17 +197,17 @@ body {
 }
 
 .primary {
-  background-color: #00ffaa;
+  background-color: #ff2600;
   font-size: 2rem;
 }
 
 .secondary {
-  background-color: #66ffcc;
+  background-color: #ff7d66;
   font-size: 1.5rem;
 }
 
 .tertiary {
-  background-color: #ccffee;
+  background-color: #ffd4cc;
   font-size: 1rem;
 }
 
@@ -222,7 +234,7 @@ body {
   width: 100%;
   font-size: 2rem;
   font-weight: bold;
-  border: 1px solid #009966;
+  border: 1px solid #991700;
 }
 
 .content {

@@ -1,7 +1,22 @@
 .form-group {
     margin: 0.5rem 0;
+    height: 4ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .form-label {
-    margin-bottom: 1.25rem;
+}
+
+.form-input {
+    border-radius: $radius;
+}
+
+.form-submit {
+    background-color: $emphasize-color;
+    border: $border-test;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: $radius;
 }
