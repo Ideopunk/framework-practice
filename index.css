@@ -155,7 +155,7 @@ input, select {
 .card {
   box-sizing: border-box;
   grid-row-end: span 16;
-  border: 1px solid #991700;
+  border: 1px solid #434d7c;
   padding: 0.5rem;
   border-radius: 3px;
 }
@@ -169,15 +169,28 @@ input, select {
 }
 
 .form-input {
+  border: 1px solid #434d7c;
   border-radius: 3px;
 }
 
 .form-submit {
-  background-color: #cc1e00;
-  border: 1px solid #991700;
+  background-color: #55629d;
+  color: white;
+  border: 1px solid #434d7c;
   height: 100%;
   font-size: 1.5rem;
   border-radius: 3px;
+}
+
+.navbar {
+  width: 100%;
+  height: 5ch;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  background-color: #f7f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .hide {
@@ -192,26 +205,32 @@ input, select {
   font-weight: bolder;
 }
 
-body {
-  padding: 1em;
+.left {
+  order: 0;
+}
+
+.right {
+  order: 2;
 }
 
 .primary {
-  background-color: #ff2600;
+  background-color: #727eb3;
   font-size: 2rem;
 }
 
 .secondary {
-  background-color: #ff7d66;
+  background-color: #b4bbd7;
   font-size: 1.5rem;
 }
 
 .tertiary {
-  background-color: #ffd4cc;
+  background-color: #f7f7fa;
   font-size: 1rem;
 }
 
 .container {
+  padding: 1rem;
+  box-sizing: border-box;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -234,7 +253,19 @@ body {
   width: 100%;
   font-size: 2rem;
   font-weight: bold;
-  border: 1px solid #991700;
+  border: 1px solid #434d7c;
+}
+
+.sidebar {
+  background-color: #f7f7fa;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #727eb3;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .content {

@@ -9,6 +9,11 @@ yo
 <link rel='stylesheet' href='index.css'>
 </head>
 <body>
+    <nav class="navbar">
+        <div>yo</div>
+        <input type="search" class="form-input">
+    </nav>
+
     <div class="container">
         <div class="col-3 card primary container">
             <div class="col-3 secondary card">Grid</div>
@@ -16,22 +21,22 @@ yo
             <div class="col-8 tertiary card">Grid</div>
         </div>
 
-        <div class="col-4 card secondary container">
+        <div class="col-7 card secondary container">
             <div class="form-group col-6">
                 <label class="form-label">Name</label>
-                <input>
+                <input class="form-input">
             </div>
             <div class="form-group col-6">
                 <label class="form-label">Voted</label>
-                <input type="checkbox">
+                <input type="checkbox" class="form-input">
             </div>
             <div class="form-group col-6">
                 <label class="form-label">Date</label>
-                <input type="date">
+                <input type="date" class="form-input">
             </div>
             <div class="form-group col-6">
                 <label class="form-label">Conviction</label>
-                <input type="range">
+                <input type="range" class="form-input">
             </div>
             <div class="form-group col-12">
                 <label class="form-label">Submit</label>
@@ -54,6 +59,25 @@ yo
         <div class="card secondary">Yo.</div>
         <div class="card tertiary">Yo.</div>
     </div>
+
+    <div class="container">
+        <aside class="sidebar col-2 left">
+            <div class="header">Aside</div>
+        </aside>
+        <main class="flex-container col-10 main">
+            <div class="header">Main</div>
+        </main>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar col-2 right">
+            <div class="header">Aside</div>
+        </aside>
+        <main class="flex-container col-10 main">
+            <div class="header">Main</div>
+        </main>
+    </div>
+
 <script src='index.js'></script>
 </body>
 </html>

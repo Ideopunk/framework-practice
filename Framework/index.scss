@@ -1,12 +1,12 @@
 @import "HTML5_Reset";
-@import "variables";
+@import "Variables/computed_variables";
 @import "grid";
 @import "Components/components_index";
 @import "pure_utilities";
 
 body {
-    padding: 1em;
 }
+
 
 .primary {
     background-color: $primary-color;
@@ -24,6 +24,8 @@ body {
 }
 
 .container {
+    padding: 1rem;
+    box-sizing: border-box;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -50,7 +52,20 @@ body {
     border: $border-test;
 }
 
+.sidebar {
+    background-color: $tertiary-color;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: $primary-color;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
 .content {
     font-size: 1rem;
     margin: 1rem 0;
 }
+

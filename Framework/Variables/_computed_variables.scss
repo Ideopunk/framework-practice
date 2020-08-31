@@ -1,0 +1,14 @@
+@import "user_variables";
+
+
+* {
+    font-family: $font-family;
+}
+
+$secondary-color: lighten($primary-color, 20%);
+$tertiary-color: lighten($primary-color, 40%);
+$border-color: darken($primary-color, 20%);
+$emphasize-color: darken($primary-color, 10%);
+
+// Tests
+$border-test: 1px solid $border-color;
