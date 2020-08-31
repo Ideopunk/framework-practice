@@ -45,3 +45,37 @@
 .col-12 {
     grid-column-end: span 12;
 }
+
+@media (max-width: 767px) {
+    .col-5 {
+        grid-column-end: span 4;
+    }
+    
+    .col-6 {
+        grid-column-end: span 4;
+    }
+    
+    .col-7 {
+        grid-column-end: span 4;
+    }
+    
+    .col-8 {
+        grid-column-end: span 4;
+    }
+    
+    .col-9 {
+        grid-column-end: span 4;
+    }
+    
+    .col-10 {
+        grid-column-end: span 4;
+    }
+    
+    .col-11 {
+        grid-column-end: span 4;
+    }
+    
+    .col-12 {
+        grid-column-end: span 4;
+    }
+}

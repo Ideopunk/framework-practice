@@ -1,3 +1,18 @@
+.primary {
+    background-color: $primary-color;
+    font-size: 2rem;
+}
+
+.secondary {
+    background-color: $secondary-color;
+    font-size: 1.5rem;
+}
+
+.tertiary {
+    background-color: $tertiary-color;
+    font-size: 1rem;
+}
+
 .hide {
 	display: none;
 }
@@ -11,9 +26,23 @@
 }
 
 .left {
-	order: 0;
+	order: -1;
 }
 
 .right {
-	order: 2;
+	order: 1;
+}
+
+.m-hide {
+	@media (max-width: 767px) {
+		display: none;
+	}
+}
+
+.m-stretch {
+	@media (max-width: 767px) {
+		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: -1;
+	}
 }
