@@ -5,3 +5,15 @@
 @import "blocks";
 @import "pure_utilities";
 
+.block-list > li {
+    width: 100%;
+    border-top: $border-test;
+    border-left: $border-test;
+    border-right: $border-test;
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+}
+
+.block-list > li:last-child {
+    border-bottom: $border-test;
+}

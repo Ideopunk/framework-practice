@@ -33,16 +33,35 @@
 	order: 1;
 }
 
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	overflow: hidden;
+}
+
 .m-hide {
-	@media (max-width: 767px) {
+	@media (max-width: $break) {
 		display: none;
 	}
 }
 
 .m-stretch {
-	@media (max-width: 767px) {
+	@media (max-width: $break) {
 		width: 100%;
 		grid-column-start: 1;
 		grid-column-end: -1;
+	}
+}
+
+.m-first {
+	@media (max-width: $break) {
+		order: -1;
+	}
+}
+
+.m-last {
+	@media (max-width: $break) {
+		order: 1;
 	}
 }

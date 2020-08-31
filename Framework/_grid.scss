@@ -46,7 +46,7 @@
     grid-column-end: span 12;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $break) {
     .col-5 {
         grid-column-end: span 4;
     }
