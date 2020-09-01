@@ -1,4 +1,5 @@
 @import "HTML5_Reset";
+@import "tag_defaults";
 @import "Variables/computed_variables";
 @import "grid";
 @import "Components/components_index";
@@ -26,3 +27,4 @@ a:focus {
     display: flex;
     justify-content: space-between;
 }
+

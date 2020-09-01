@@ -472,6 +472,10 @@ figcaption {
   padding: 0.5rem;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .float-l {
   float: left;
 }
