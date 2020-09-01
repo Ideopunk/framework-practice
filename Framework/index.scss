@@ -17,3 +17,11 @@
 .block-list > li:last-child {
     border-bottom: $border-test;
 }
+
+a:focus {
+    outline: $border-test;
+}
+
+.hor-ul {
+    display: flex;
+}

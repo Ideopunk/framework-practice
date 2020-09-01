@@ -1,0 +1,17 @@
+.btn {
+    background-color: $minor-color-1;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: $border-test;
+    border-radius: $radius;
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: $minor-color-0;
+}
+
+.btn:focus {
+    outline: $border-test;
+}

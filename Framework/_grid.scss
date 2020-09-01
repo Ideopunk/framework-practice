@@ -46,6 +46,38 @@
     grid-column-end: span 12;
 }
 
+.col-13 {
+    grid-column-end: span 13;
+}
+
+.col-14 {
+    grid-column-end: span 14;
+}
+
+.col-15 {
+    grid-column-end: span 15;
+}
+
+.col-16 {
+    grid-column-end: span 16;
+}
+
+.col-17 {
+    grid-column-end: span 17;
+}
+
+.col-18 {
+    grid-column-end: span 18;
+}
+
+.col-19 {
+    grid-column-end: span 19;
+}
+
+.col-20 {
+    grid-column-end: span 20;
+}
+
 @media (max-width: $break) {
     .col-5 {
         grid-column-end: span 4;
@@ -76,6 +108,38 @@
     }
     
     .col-12 {
+        grid-column-end: span 4;
+    }
+
+    .col-13 {
+        grid-column-end: span 4;
+    }
+    
+    .col-14 {
+        grid-column-end: span 4;
+    }
+    
+    .col-15 {
+        grid-column-end: span 4;
+    }
+    
+    .col-16 {
+        grid-column-end: span 4;
+    }
+    
+    .col-17 {
+        grid-column-end: span 4;
+    }
+    
+    .col-18 {
+        grid-column-end: span 4;
+    }
+    
+    .col-19 {
+        grid-column-end: span 4;
+    }
+    
+    .col-20 {
         grid-column-end: span 4;
     }
 }

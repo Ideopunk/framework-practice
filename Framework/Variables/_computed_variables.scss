@@ -2,17 +2,22 @@
 
 
 * {
-    font-family: $font-family;
+    font-family: $main-font-family;
 }
 
 .font-2 {
-    font-family: $secondary-font-family;
+    font-family: $minor-font-family;
 }
 
-$secondary-color: lighten($primary-color, 20%);
-$tertiary-color: lighten($primary-color, 40%);
-$border-color: darken($primary-color, 20%);
-$emphasize-color: darken($primary-color, 10%);
+$main-color-2: lighten($main-color-1, 15%);
+$main-color-3: lighten($main-color-1, 30%);
+$main-color-border: darken($main-color-1, 20%);
+$main-color-0: darken($main-color-1, 10%);
+
+$minor-color-2: lighten($minor-color-1, 15%);
+$minor-color-3: lighten($minor-color-1, 30%);
+$minor-color-border: darken($minor-color-1, 20%);
+$minor-color-0: darken($minor-color-1, 10%);
 
 // Tests
-$border-test: 1px solid $border-color;
+$border-test: 1px solid $main-color-border;

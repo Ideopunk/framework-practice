@@ -1,8 +1,14 @@
-$primary-color: #168ec5;
-$font-family: Lato, "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$secondary-font-family: Roboto, "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$main-color-1: white;
+$minor-color-1: #00BFB2;
 
-$radius: 3px;
+$main-font-family: Lato, "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$minor-font-family: Roboto, "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$radius: 2px;
+
+// Choose the amount of columns in a grid
+$grid-column-amount: 20;
+
 
 // Break at mobile or at tablet?
 $break: 767px;
