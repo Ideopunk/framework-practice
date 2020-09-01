@@ -27,8 +27,13 @@ a:focus {
 
 .hor-ul {
     display: flex;
-    justify-content: space-between;
 }
+
+.inline-ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
 
 .bul-ul {
     list-style-type: disc;

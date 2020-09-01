@@ -25,3 +25,27 @@ flex-33 {
 .flex-1 {
     flex: 100%;
 }
+
+.just-start {
+    justify-content: flex-start;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-end {
+    justify-content: flex-end;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-even {
+    justify-content: space-evenly;
+}
