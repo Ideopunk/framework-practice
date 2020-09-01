@@ -104,6 +104,15 @@ li {
   padding: 0.5rem 0;
 }
 
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
 * {
   font-family: Lato, "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -260,6 +269,7 @@ li {
 .card {
   box-sizing: border-box;
   grid-row-end: span 16;
+  flex: 1;
   border: 1px solid #cccccc;
   border-radius: 2px;
   overflow: hidden;
@@ -316,7 +326,7 @@ li {
 }
 
 .btn {
-  background-color: #00BFB2;
+  background-color: #f9f9f9;
   font-size: 1.5rem;
   padding: 0.5rem;
   box-sizing: border-box;
@@ -326,7 +336,7 @@ li {
 }
 
 .btn:hover {
-  background-color: #008c82;
+  background-color: #e0e0e0;
 }
 
 .btn:focus {
@@ -407,6 +417,10 @@ li {
   font-size: 1rem;
 }
 
+.minor-color-1 {
+  background-color: #f9f9f9;
+}
+
 .hide {
   display: none;
 }
@@ -458,32 +472,37 @@ li {
   padding: 0.5rem;
 }
 
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
 @media (max-width: 767px) {
   .m-hide {
     display: none;
   }
-}
 
-@media (max-width: 767px) {
   .m-stretch {
     width: 100%;
     grid-column-start: 1;
     grid-column-end: -1;
   }
-}
 
-@media (max-width: 767px) {
   .m-first {
     order: -1;
   }
-}
 
-@media (max-width: 767px) {
   .m-last {
     order: 1;
   }
-}
 
+  .m-pivot {
+    flex-direction: column;
+  }
+}
 .block-list > li {
   width: 100%;
   border-top: 1px solid #cccccc;
@@ -503,6 +522,7 @@ a:focus {
 
 .hor-ul {
   display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=index.css.map */

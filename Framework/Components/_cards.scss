@@ -1,6 +1,7 @@
 .card {
     box-sizing: border-box;
     grid-row-end: span 16;
+    flex: 1;
     border: $border-test;
     border-radius: $radius;
     overflow: hidden;
