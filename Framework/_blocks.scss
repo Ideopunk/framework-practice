@@ -21,23 +21,23 @@
 }
 
 .header {
-    width: 100%;
+    // width: 100%;
     font-size: 2rem;
     font-weight: bold;
     border: $border-test;
     box-sizing: border-box;
     background-color: $primary-color;
+    display: flex;
+    align-items: center;
 }
 
 .sidebar {
     background-color: $tertiary-color;
-    padding: 1rem;
     box-sizing: border-box;
 }
 
 .main {
     background-color: $primary-color;
-    padding: 1rem;
     box-sizing: border-box;
 }
 

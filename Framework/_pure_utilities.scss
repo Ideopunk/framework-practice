@@ -36,9 +36,42 @@
 .image {
 	width: 100%;
 	height: 100%;
-	object-fit: fill;
+	object-fit: cover;
 	overflow: hidden;
 }
+
+.height-50 {
+	height: 50%;
+}
+
+.cntr {
+	text-align: center;
+}
+
+.mrg {
+    margin: 0 0.5rem;
+}
+
+.mrg:first-child {
+    margin-top: 0.5rem;
+}
+
+.mrg:last-child {
+    margin-bottom: 0.5rem
+}
+
+.pad {
+	padding: 0.5rem;
+	// padding: 0 0.5rem;
+}
+
+// .pad:first-child {
+// 	padding-top: 0.5rem;
+// }
+
+// .pad:last-child {
+// 	padding-bottom: 0.5rem;
+// }
 
 .m-hide {
 	@media (max-width: $break) {

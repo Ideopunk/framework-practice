@@ -2,18 +2,9 @@
     box-sizing: border-box;
     grid-row-end: span 16;
     border: $border-test;
-    padding: 0.5rem;
     border-radius: $radius;
     overflow: hidden;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
-.card-image {
-    width: calc(100% + 1rem + 2px);
-    height: 50%;
-    margin: calc(-0.5rem - 0px);
-    margin-bottom: 1rem;
-	object-fit: cover;
-	overflow: hidden;
-}
