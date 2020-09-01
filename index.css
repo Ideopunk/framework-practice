@@ -113,6 +113,15 @@ figcaption {
   caption-side: bottom;
 }
 
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
 * {
   font-family: Lato, "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -266,6 +275,34 @@ figcaption {
     grid-column-end: span 4;
   }
 }
+.flex-25 {
+  flex: 25%;
+}
+
+flex-33 {
+  flex: 33%;
+}
+
+.flex-45 {
+  flex: 45%;
+}
+
+.flex-50 {
+  flex: 50%;
+}
+
+.flex-55 {
+  flex: 55%;
+}
+
+.flex-75 {
+  flex: 75%;
+}
+
+.flex-1 {
+  flex: 100%;
+}
+
 .card {
   box-sizing: border-box;
   grid-row-end: span 16;
@@ -468,8 +505,26 @@ figcaption {
   margin-bottom: 0.5rem;
 }
 
+.mrg-left {
+  margin-left: auto;
+}
+
+.mrg-right {
+  margin-right: auto;
+}
+
+.indent {
+  margin-left: 1rem;
+}
+
+.mrg-vert {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .pad {
   padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 .wrap {
@@ -507,6 +562,11 @@ figcaption {
     flex-direction: column;
   }
 }
+#sidebar {
+  border-right: 1px solid #a7d7f9;
+  box-sizing: border-box;
+}
+
 .block-list > li {
   width: 100%;
   border-top: 1px solid #cccccc;
@@ -527,6 +587,11 @@ a:focus {
 .hor-ul {
   display: flex;
   justify-content: space-between;
+}
+
+.bul-ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 /*# sourceMappingURL=index.css.map */

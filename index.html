@@ -11,11 +11,11 @@
 		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body class="flex-container-row">
-		<aside class="minor-color-1 m-hide">
+		<aside id="sidebar" class="minor-color-1 m-hide">
 			<img
 				src="https://en.wikipedia.org/static/images/project-logos/enwiki-1.5x.png"
 			/>
-			<div>
+			<div class="mrg-vert indent">
 				<ul>
 					<li><a href="#">Main page</a></li>
 					<li><a href="#">Contents</a></li>
@@ -26,7 +26,7 @@
 					<li><a href="#">Donate</a></li>
 				</ul>
 			</div>
-			<div>
+			<div class="mrg-vert indent">
 				<h3>Contribute</h3>
 				<ul>
 					<li><a href="#">Help</a></li>
@@ -35,7 +35,7 @@
 					<li><a href="#">Upload file</a></li>
 				</ul>
 			</div>
-			<div>
+			<div class="mrg-vert indent">
 				<h3>Tools</h3>
 				<ul>
 					<li><a href="#">What links here</a></li>
@@ -47,7 +47,7 @@
 				</ul>
 			</div>
 
-			<div>
+			<div class="mrg-vert indent">
 				<h3>Print/export</h3>
 				<ul>
 					<li><a href="#">Download as PDF</a></li>
@@ -55,7 +55,7 @@
 				</ul>
 			</div>
 
-			<div>
+			<div class="mrg-vert indent">
 				<h3>In other projects</h3>
 				<ul>
 					<li><a href="#">Wikimedia Commons</a></li>
@@ -74,7 +74,7 @@
 				</ul>
 			</div>
 
-			<div>
+			<div class="mrg-vert indent">
 				<h3>Languages</h3>
 				<ul>
 					<li><a href="#">العربية</a></li>
@@ -87,10 +87,10 @@
 			</div>
 		</aside>
 
-		<main>
+		<main class="pad">
 			<header>
 				<nav class="navbar">
-					<ul class="hor-ul">
+					<ul class="hor-ul marg-left">
 						<li>Not logged in</li>
 						<li><a href="#">Talk</a></li>
 						<li><a href="#">Contributions</a></li>
@@ -99,13 +99,13 @@
 					</ul>
 				</nav>
 				<nav class="navbar">
-					<div class="nav-group">
+					<div class="nav-group marg-right">
 						<ul class="hor-ul">
 							<li class="active-tab">Main Page</li>
 							<li><a href="#">Talk</a></li>
 						</ul>
 					</div>
-					<div class="nav-group">
+					<div class="nav-group marg-left">
 						<ul class="hor-ul">
 							<li class="active-tab">Read</li>
 							<li><a href="#">View source</a></li>
@@ -116,8 +116,8 @@
 				</nav>
 			</header>
 
-			<div class="flex-container pad">
-				<nav class="minor-color-1">
+			<div class="flex-container-row wrap pad">
+				<nav class="minor-color-1 flex-1">
 					<div class="cntr">
 						<p>Welcome to <a href="#">Wikipedia</a></p>
 						<p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a></p>
@@ -138,7 +138,7 @@
 					</div>
 				</nav>
 
-				<div>
+				<div class="flex-45">
 					<h2 class="header mrg">From today's featured article</h2>
 					<figure class="float-l">
 						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Monteverdi_Marienvesper_Altus.jpg/240px-Monteverdi_Marienvesper_Altus.jpg">
@@ -163,7 +163,7 @@
 						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/King_George_V_with_Prime_Minister_Chandra_Shumsher_Rana_1911.jpg/240px-King_George_V_with_Prime_Minister_Chandra_Shumsher_Rana_1911.jpg">
 						<figcaption>George V (right) and Nepalese prime minister Chandra Shumsher with a shot tiger</figcaption>
 					</figure>
-					<ul>
+					<ul class="bul-ul">
 						<li>that in 1911, George V (pictured) killed 21 tigers, 8 rhinos, and 1 bear in Nepal?</li>
 						<li>that the Spanish city of Algeciras took down a statue of a medieval Islamic Spanish ruler for restoration in 2013 and has yet to put it back?</li>
 						<li>that Frank Howard was the oldest sitting member of the Louisiana House of Representatives by 2016?</li>
@@ -182,7 +182,7 @@
 					</div>
 				</div>
 
-				<div>
+				<div class="flex-45">
 					<h2 class="header">In the news</h2>
 					<div class="header cntr">
 						<ul class="hor-ul">
@@ -198,7 +198,7 @@
 						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Shinz%C5%8D_Abe_Official.jpg/180px-Shinz%C5%8D_Abe_Official.jpg">
 						<figcaption>Shinzo Abe</figcaption>
 					</figure>
-					<ul>
+					<ul class="bul-ul">
 						<li>Prime Minister Shinzo Abe <em>(pictured)</em> of Japan announces his intention to resign due to medical concerns.</li>
 						<li>Hurricane Laura kills at least 50 people across the Caribbean and the United States.</li>
 						<li>The Africa Regional Certification Commission declares that wild polio has been eliminated in Africa.</li>
@@ -220,7 +220,7 @@
 						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sri_Guru_Granth_Sahib_Nishan.jpg/180px-Sri_Guru_Granth_Sahib_Nishan.jpg">
 						<figcaption>Illuminated Guru Granth Sahib folio</figcaption>
 					</figure>
-					<ul>
+					<ul class="bul-ul">
 						<a href="#" class="emphasize">September 1</a>
 						<li>1604 – The Guru Granth Sahib (folio depicted), the religious text of Sikhism, was installed in Harmandir Sahib.</li>
 						<li>1774 – Under orders from royal governor Thomas Gage, British soldiers removed gunpowder from a magazine in the Province of Massachusetts Bay, causing Patriots to prepare for war.</li>
@@ -266,7 +266,7 @@
 
 				<div>
 					<h2 class="header">Other areas of Wikipedia</h2>
-					<ul>
+					<ul class="bul-ul">
 						<li><a href="#" class="emphasize">Community portal</a>– Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</li>
 						<li><a href="#" class="emphasize">Help desk</a>– Ask questions about using Wikipedia.</li>
 						<li><a href="#" class="emphasize">Local embassy</a>– For Wikipedia-related communication in languages other than English.</li>
@@ -277,62 +277,62 @@
 					<h2 class="header">Wikipedia's sister projects</h2>
 					<p>Wikipedia is hosted by the <a href="#">Wikimedia Foundation</a>, a non-profit organization that also hosts a range of other <a href="#">projects:</a></p>
 					<ul class="hor-ul wrap">
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
 						</li>
-						<li>
+						<li class="flex-33">
 							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/47px-Commons-logo.svg.png">
 							<p class="emphasize">Fake</p>
 							<p>Fake Text</p>
@@ -340,7 +340,7 @@
 					</ul>
 					<h2 class="header">Wikipedia languages</h2>
 					<p>This Wikipedia is written in English. Started in 2001, it currently contains 6,151,437 articles. Many other Wikipedias are available; some of the largest are listed below.</p>
-					<ul>
+					<ul class="bul-ul">
 						<li>
 							<ul class="hor-ul wrap">
 								More than 1,000,000 articles:

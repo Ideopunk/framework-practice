@@ -64,8 +64,26 @@
     margin-bottom: 0.5rem
 }
 
+.mrg-left {
+	margin-left: auto;
+}
+
+.mrg-right {
+	margin-right: auto;
+}
+
+.indent {
+	margin-left: 1rem;
+}
+
+.mrg-vert {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .pad {
 	padding: 0.5rem;
+	box-sizing: border-box;
 	// padding: 0 0.5rem;
 }
 
