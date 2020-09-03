@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body class="flex-container-row">
-		<aside id="sidebar" class="minor-color-1 m-hide">
+		<aside id="sidebar" class="minor-color-1 m-hide small">
 			<img
 				src="https://en.wikipedia.org/static/images/project-logos/enwiki-1.5x.png"
 			/>
@@ -87,10 +87,10 @@
 			</div>
 		</aside>
 
-		<main class="pad">
-			<header>
-				<nav class="navbar">
-					<ul class="hor-ul marg-left">
+		<main >
+			<header class="small">
+				<nav class="navbar just-end">
+					<ul class="hor-ul">
 						<li>Not logged in</li>
 						<li><a href="#">Talk</a></li>
 						<li><a href="#">Contributions</a></li>
@@ -98,47 +98,45 @@
 						<li><a href="#">Log in</a></li>
 					</ul>
 				</nav>
-				<nav class="navbar">
-					<div class="nav-group marg-right">
+				<nav class="navbar just-between">
+					<div class="nav-group">
 						<ul class="hor-ul">
 							<li class="active-tab">Main Page</li>
-							<li><a href="#">Talk</a></li>
+							<li class="tab"><a href="#">Talk</a></li>
 						</ul>
 					</div>
 					<div class="nav-group marg-left">
 						<ul class="hor-ul">
 							<li class="active-tab">Read</li>
-							<li><a href="#">View source</a></li>
-							<li><a href="#">View history</a></li>
+							<li class="tab"><a href="#">View source</a></li>
+							<li class="tab"><a href="#">View history</a></li>
 						</ul>
 						<input type="search" />
 					</div>
 				</nav>
 			</header>
 
-			<div class="flex-container-row wrap pad">
-				<nav class="minor-color-1 flex-1">
-					<div class="cntr">
-						<p>Welcome to <a href="#">Wikipedia</a></p>
+			<div id="main" class="flex-container-row wrap">
+				<nav id="welcome-banner" class="minor-color-1 flex-1 flex-container-row just-between">
+					<div class="mrg cntr">
+						<p class="large">Welcome to <a href="#">Wikipedia</a></p>
 						<p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a></p>
 						<p><a href="#">6,151,437</a> articles in <a href="#">English</a></p>
 					</div>
-					<div class="">
-						<ul class="hor-ul">
-							<li><a href="#">Arts</a></li>
-							<li><a href="#">Biography</a></li>
-							<li><a href="#">Geography</a></li>
-							<li><a href="#">History</a></li>
-							<li><a href="#">Mathematics</a></li>
-							<li><a href="#">Science</a></li>
-							<li><a href="#">Society</a></li>
-							<li><a href="#">Technology</a></li>
-							<li><a href="#" class="emphasize">All portals</a></li>
-						</ul>
-					</div>
+					<ul class="bul-ul flex-container wrap">
+						<li><a href="#">Arts</a></li>
+						<li><a href="#">Biography</a></li>
+						<li><a href="#">Geography</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Mathematics</a></li>
+						<li><a href="#">Science</a></li>
+						<li><a href="#">Society</a></li>
+						<li><a href="#">Technology</a></li>
+						<li><a href="#" class="emphasize">All portals</a></li>
+					</ul>
 				</nav>
 
-				<div class="flex-45">
+				<div class="main flex-45">
 					<h2 class="header mrg">From today's featured article</h2>
 					<figure class="float-l">
 						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Monteverdi_Marienvesper_Altus.jpg/240px-Monteverdi_Marienvesper_Altus.jpg">
@@ -177,12 +175,12 @@
 						<ul class="hor-ul inline-ul just-end">
 							<li><a href="#">Archive</a></li>
 							<li><a href="#">Start a new article</a></li>
-							<li><a href="#">Nominate an article</a></li>
+							<li class="just-end"></li><a href="#">Nominate an article</a></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="flex-45">
+				<div class="main flex-45">
 					<h2 class="header">In the news</h2>
 					<div class="header cntr">
 						<ul class="hor-ul">
@@ -214,7 +212,7 @@
 						<li><a href="#">Joe Ruby</a></li>
 						<li><a href="#">Dirk Mudge</a></li>
 					</ul>
-					<a href="#" class="emphasize">Nominate an article</a>
+					<a href="#" class="emphasize text-right">Nominate an article</a>
 					<h2 class="header">On this day</h2>
 					<figure class="float-r">
 						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sri_Guru_Granth_Sahib_Nishan.jpg/180px-Sri_Guru_Granth_Sahib_Nishan.jpg">
@@ -248,8 +246,8 @@
 				</div>
 
 				<div>
-					<h2 class="header">Today's featured picture</h2>
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Albert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg/600px-Albert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg" class="float-l">
+					<h2 class="mrg header">Today's featured picture</h2>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Albert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg/600px-Albert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg" class="float-l mrg">
 					<p>Albert Bierstadt (1830–1902) was a German-American painter best known for his lavish, sweeping landscapes of the American West, such as this oil-on-canvas painting, entitled Among the Sierra Nevada, California, created in 1868. He painted the landscape in his Rome studio, and exhibited it in Berlin and London before shipping it to the United States. His choice of grandiose subjects was matched by his entrepreneurial flair; his exhibitions of individual works were accompanied by promotion, ticket sales, and, in the words of one critic, a "vast machinery of advertisement and puffery". This work is in the collection of the Smithsonian American Art Museum.</p>
 					<p>Painting credit: <a href="#">Albert Bierstadt</a></p>
 					<ul class="hor-ul inline-ul">
@@ -264,7 +262,7 @@
 					</ul>
 				</div>
 
-				<div>
+				<div class="pad">
 					<h2 class="header">Other areas of Wikipedia</h2>
 					<ul class="bul-ul">
 						<li><a href="#" class="emphasize">Community portal</a>– Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</li>
@@ -370,7 +368,7 @@
 				</div>
 			</div>
 
-			<footer>
+			<footer class="small">
 				<p>
 					Text is available under the Creative Commons
 					Attribution-ShareAlike License; additional terms may apply.

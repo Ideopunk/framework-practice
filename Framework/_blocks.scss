@@ -28,10 +28,14 @@
 
 .header {
     // width: 100%;
-    font-size: 2rem;
-    font-weight: bold;
+    // font-size: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.365rem;
+    font-weight: 700;
+    box-sizing: padding-box;
+    margin: 0.525rem;
+    padding: 0.21rem 0.42rem;
     border: $border-test;
-    box-sizing: border-box;
     background-color: $main-color-1;
     display: flex;
     align-items: center;
@@ -43,7 +47,6 @@
 }
 
 .main {
-    background-color: $main-color-1;
     box-sizing: border-box;
 }
 
@@ -59,3 +62,4 @@
 .link:hover {
     color: $main-color-0;
 }
+

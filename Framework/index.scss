@@ -1,6 +1,6 @@
 @import "HTML5_Reset";
-@import "tag_defaults";
 @import "Variables/computed_variables";
+@import "tag_defaults";
 @import "grid";
 @import "flex";
 @import "Components/components_index";
@@ -29,13 +29,31 @@ a:focus {
     display: flex;
 }
 
+.hor-ul > li {
+    margin-right: 0.75rem;
+}
+
 .inline-ul {
     list-style-type: disc;
     list-style-position: inside;
+}
+
+.inline-ul > li:first-child {
+    list-style: none;
 }
 
 
 .bul-ul {
     list-style-type: disc;
     list-style-position: inside;
+}
+
+
+@mixin colorCoordinate($color) {
+    background-color: $color;
+    border: 1px solid darken($color, 10%);
+}
+
+.redCoordinate {
+    @include colorCoordinate(red);
 }

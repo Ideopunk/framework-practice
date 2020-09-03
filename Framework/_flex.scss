@@ -49,3 +49,19 @@ flex-33 {
 .just-even {
     justify-content: space-evenly;
 }
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
