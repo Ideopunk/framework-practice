@@ -25,6 +25,22 @@ a:focus {
     outline: $border-test;
 }
 
+li {
+    list-style: none;
+    position: relative;
+    left: 10px;
+}
+
+li::before {
+    content: "•";
+    position: absolute;
+    left: -10px;
+}
+
+.nobul::before {
+    content: "";
+}
+
 .hor-ul {
     display: flex;
 }
@@ -33,15 +49,33 @@ a:focus {
     margin-right: 0.75rem;
 }
 
-.inline-ul {
+.inline-ul > li {
+    list-style-type: none;
+    position: relative;
+}
+
+.inline-ul > li::before {
+    content: " · ";
+    // position: absolute;
+    // lekft: -10px;
+}
+
+.inline-ul > li:first-child::before {
+    content: "";
+}
+
+// .inline-ul > li:first-child {
+//     list-style: none;
+// }
+
+.inline-ul-preface {
     list-style-type: disc;
     list-style-position: inside;
 }
 
-.inline-ul > li:first-child {
+.inline-ul-preface > li:first-child, :nth-child(2) {
     list-style: none;
 }
-
 
 .bul-ul {
     list-style-type: disc;

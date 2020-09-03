@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -134,6 +135,10 @@ a:visited {
 h3 {
   color: #54595d;
   border-bottom: 1px solid #54595d;
+}
+
+li::marker {
+  margin-right: 3px;
 }
 
 .col-1 {
@@ -622,6 +627,10 @@ flex-33 {
   line-height: 2.3rem;
 }
 
+.ellipsis-start::before {
+  content: "... ";
+}
+
 #sidebar {
   border-right: 1px solid #a7d7f9;
   box-sizing: border-box;
@@ -633,6 +642,7 @@ flex-33 {
 
 #main {
   padding: 20px 24px 24px 24px;
+  box-sizing: border-box;
 }
 
 .block-list > li {
@@ -652,6 +662,22 @@ a:focus {
   outline: 1px solid #cccccc;
 }
 
+li {
+  list-style: none;
+  position: relative;
+  left: 10px;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: -10px;
+}
+
+.nobul::before {
+  content: "";
+}
+
 .hor-ul {
   display: flex;
 }
@@ -660,12 +686,25 @@ a:focus {
   margin-right: 0.75rem;
 }
 
-.inline-ul {
+.inline-ul > li {
+  list-style-type: none;
+  position: relative;
+}
+
+.inline-ul > li::before {
+  content: " · ";
+}
+
+.inline-ul > li:first-child::before {
+  content: "";
+}
+
+.inline-ul-preface {
   list-style-type: disc;
   list-style-position: inside;
 }
 
-.inline-ul > li:first-child {
+.inline-ul-preface > li:first-child, :nth-child(2) {
   list-style: none;
 }
 
