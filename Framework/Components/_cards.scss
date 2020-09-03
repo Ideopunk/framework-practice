@@ -1,11 +1,10 @@
 .card {
+    margin-top: 0.25rem;
+    margin-bottom: 0 0.25rem;
+    padding: 0.525rem;
     box-sizing: border-box;
-    grid-row-end: span 16;
-    flex: 1;
     border: $border-test;
     border-radius: $radius;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
 }
 
