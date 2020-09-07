@@ -147,3 +147,19 @@
 .ellipsis-start::before {
 	content: "... "
 }
+
+.blue-trns {
+	background-color: rgba(206, 223, 242, 0.33);
+}
+
+.green-trns {
+	background-color: rgba(206, 242, 224, 0.33);
+}
+
+.purple-trns {
+	background-color: rgba(221, 206, 242, 0.33);
+}
+
+.grey-trns {
+	background-color: rgba(238, 238, 238, 0.33);
+}

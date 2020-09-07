@@ -37,6 +37,10 @@ li::before {
     left: -10px;
 }
 
+.nobul {
+    left: 0;
+}
+
 .nobul::before {
     content: "";
 }
