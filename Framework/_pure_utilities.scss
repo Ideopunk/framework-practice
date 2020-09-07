@@ -21,6 +21,10 @@
 	background-color: $minor-color-1;
 }
 
+.gap {
+	gap: 6px;
+}
+
 .hide {
 	display: none;
 }
@@ -168,8 +172,10 @@
 	line-height: 2.3rem;
 }
 
+
+
 .ellipsis-start::before {
-	content: "... "
+	content: "... ";
 }
 
 .blue-trns {

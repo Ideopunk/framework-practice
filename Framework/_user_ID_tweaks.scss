@@ -6,6 +6,7 @@
 
 #welcome-banner {
     height: 90.925;
+    padding: 5.6px 1rem;
     border: 1px solid rgb(221, 221, 221);
 }
 
@@ -47,6 +48,10 @@
     height: 33px;
 }
 
+.hor-ul > .input-container {
+    margin: 0;
+}
+
 .input-container {
     padding: 0.4rem;
     box-sizing: border-box;
@@ -57,11 +62,15 @@
 }
 
 .input-container > * {
-    
     height: 100%;
     width: 300px;
 }
 
 .spacer {
 	// background-image: linear-gradient(to bottom,#ffffff 50%,#f6f6f6 100%);
+}
+
+.ellipsis-start {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
 }

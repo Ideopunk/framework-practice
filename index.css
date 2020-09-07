@@ -296,7 +296,7 @@ img {
   }
 }
 .card {
-  padding: 0.425rem;
+  padding: 8.4px;
   box-sizing: border-box;
   border: 1px solid #cccccc;
   border-radius: 2px;
@@ -381,17 +381,14 @@ img {
 }
 
 .active-tab {
-  padding: 0 0.5rem;
-  border-left: 1px solid #a7d7f9;
-  border-right: 1px solid #a7d7f9;
+  padding: 0.25rem 0.5rem;
   display: flex;
   align-items: flex-end;
+  font-size: 13px;
 }
 
 .tab {
-  padding: 0 0.5rem;
-  border-left: 1px solid #a7d7f9;
-  border-right: 1px solid #a7d7f9;
+  padding: 0.25rem 0.5rem;
   display: flex;
   align-items: flex-end;
   border-bottom: 1px solid #a7d7f9;
@@ -400,6 +397,7 @@ img {
   background-repeat: no-repeat;
   background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #eef7ff 100%);
   background-size: 100% 100%;
+  font-size: 13px;
 }
 
 .tab > * {
@@ -518,7 +516,7 @@ flex-33 {
   line-height: 1.365rem;
   font-weight: 700;
   box-sizing: padding-box;
-  margin: 0.525rem;
+  margin-bottom: 0.525rem;
   padding: 0.21rem 0.42rem;
   border: 1px solid #cccccc;
   background-color: white;
@@ -569,6 +567,10 @@ flex-33 {
 
 .minor-color-1 {
   background-color: #f9f9f9;
+}
+
+.gap {
+  gap: 6px;
 }
 
 .hide {
@@ -744,6 +746,7 @@ flex-33 {
 
 #welcome-banner {
   height: 90.925;
+  padding: 5.6px 1rem;
   border: 1px solid #dddddd;
 }
 
@@ -785,6 +788,10 @@ flex-33 {
   height: 33px;
 }
 
+.hor-ul > .input-container {
+  margin: 0;
+}
+
 .input-container {
   padding: 0.4rem;
   box-sizing: border-box;
@@ -797,6 +804,11 @@ flex-33 {
 .input-container > * {
   height: 100%;
   width: 300px;
+}
+
+.ellipsis-start {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .block-list > li {
