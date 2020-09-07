@@ -105,7 +105,7 @@
 }
 
 .spacer {
-	width: 100%;
+	width: 100px;
 	flex: 1;
 }
 
@@ -184,4 +184,8 @@
 
 .shrink {
 	font-size: 95%;
+}
+
+.clear {
+	clear: both;
 }
