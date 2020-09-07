@@ -24,9 +24,10 @@ a:visited {
 
 h3 {
     color: rgb(84,89,93);
-    border-bottom: 1px solid rgb(84,89,93);
-}
-
-li::marker {
-    margin-right: 3px;
+    // border-bottom-width: 1px; 
+    // border-bottom-style: solid;
+    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
+    background-position: center bottom;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
 }

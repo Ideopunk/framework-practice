@@ -1,17 +1,19 @@
 $site-border-color: rgb(167, 215, 249);
 
 #sidebar {
-    border-right: 1px solid $site-border-color;
     box-sizing: border-box;
     margin-left: 0.5rem;
     width: 13rem;
 }
 
 #welcome-banner {
-    height: 90.925
+    height: 90.925;
+    border: 1px solid rgb(221, 221, 221);
 }
 
 #main {
+    border-left: 1px solid $site-border-color;
+    border-bottom: 1px solid $site-border-color;
     padding: 20px 24px 24px 24px;
     box-sizing: border-box;
 }
@@ -34,4 +36,9 @@ $site-border-color: rgb(167, 215, 249);
 .quarter-item > * {
     padding: 0.375rem 0.25rem;
     box-sizing: border-box;
+}
+
+.button-image {
+    width: 88px;
+    height: 33px;
 }

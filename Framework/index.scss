@@ -95,3 +95,22 @@ li::before {
 .redCoordinate {
     @include colorCoordinate(red);
 }
+
+.tab {
+    border-bottom: 1px solid $site-border-color;
+}
+
+.small-port {
+    width: 120px;
+    height: 155px
+}
+
+.small-land {
+    width: 160px;
+    object-fit: contain;
+}
+
+.big-land {
+    width: 400px;
+    object-fit: contain;
+}

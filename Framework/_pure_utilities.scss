@@ -91,6 +91,11 @@
 	// padding: 0 0.5rem;
 }
 
+.pad-vert {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 .wrap {
 	flex-wrap: wrap;
 }
@@ -162,4 +167,8 @@
 
 .grey-trns {
 	background-color: rgba(238, 238, 238, 0.33);
+}
+
+.shrink {
+	font-size: 95%;
 }
