@@ -11,6 +11,7 @@ figure {
 figcaption {
     display: table-caption;
     caption-side: bottom;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -34,4 +35,5 @@ h3 {
 
 img {
     object-fit: contain;
+    width: inherit;
 }
