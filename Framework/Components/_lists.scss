@@ -1,0 +1,83 @@
+.block-list > li {
+    width: 100%;
+    border-top: $border-test;
+    border-left: $border-test;
+    border-right: $border-test;
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+}
+
+.block-list > li:last-child {
+    border-bottom: $border-test;
+}
+
+a:focus {
+    outline: $border-test;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    left: 10px;
+}
+
+li::before {
+    content: "•";
+    position: absolute;
+    left: -10px;
+}
+
+.nobul {
+    left: 0;
+}
+
+.hor-ul > .nobul {
+    margin: 0;
+}
+
+.nobul::before {
+    content: "";
+}
+
+.hor-ul {
+    display: flex;
+}
+
+.hor-ul > li {
+    margin-right: 0.75rem;
+}
+
+.inline-ul > li {
+    list-style-type: none;
+    position: relative;
+}
+
+.inline-ul > li::before {
+    content: " · ";
+    // position: absolute;
+    // lekft: -10px;
+}
+
+.inline-ul > li:first-child::before {
+    content: "";
+}
+
+
+.inline-ul-preface {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.inline-ul-preface > li:first-child, :nth-child(2) {
+    list-style: none;
+}
+
+.bul-ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0.5rem;
+}
+
+.bul-ul > li {
+    margin-bottom: 1.4px;
+}

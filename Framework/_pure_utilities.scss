@@ -2,47 +2,37 @@
 	border: $border-test;
 }
 
-.primary {
-    background-color: $main-color-1;
-    font-size: 2rem;
-}
-
-.secondary {
-    background-color: $main-color-2;
-    font-size: 1.5rem;
-}
-
-.tertiary {
-    background-color: $main-color-3;
-    font-size: 1rem;
+.clear {
+	clear: both;
 }
 
 .minor-color-1 {
 	background-color: $minor-color-1;
 }
 
-.gap {
-	gap: 6px;
-}
-
-.hide {
-	display: none;
-}
-
-.transparent {
-	opacity: 0.5;
-}
 
 .emphasize {
 	font-weight: bolder;
 }
 
-.left {
-	order: -1;
+.float-l {
+	float: left;
 }
 
-.right {
-	order: 1;
+.float-r {
+	float: right;
+}
+
+.gap {
+	gap: 6px;
+}
+
+.height-50 {
+	height: 50%;
+}
+
+.hide {
+	display: none;
 }
 
 .image {
@@ -52,16 +42,12 @@
 	overflow: hidden;
 }
 
-.height-50 {
-	height: 50%;
+.left {
+	order: -1;
 }
 
-.cntr {
-	text-align: center;
-}
-
-.text-right {
-	text-align: right;
+.right {
+	order: 1;
 }
 
 .mrg {
@@ -88,7 +74,7 @@
 }
 
 .mrg-right-rem {
-	margin-rigt: 1rem;
+	margin-right: 1rem;
 }
 
 .mrg-top {
@@ -107,7 +93,6 @@
 .pad {
 	padding: 0.5rem;
 	box-sizing: border-box;
-	// padding: 0 0.5rem;
 }
 
 .pad-vert {
@@ -115,26 +100,24 @@
 	padding-bottom: 1rem;
 }
 
+.shrink {
+	font-size: 95%;
+}
 
+.cntr {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.transparent {
+	opacity: 0.5;
+}
 
 .wrap {
 	flex-wrap: wrap;
-}
-
-// .pad:first-child {
-// 	padding-top: 0.5rem;
-// }
-
-// .pad:last-child {
-// 	padding-bottom: 0.5rem;
-// }
-
-.float-l {
-	float: left;
-}
-
-.float-r {
-	float: right;
 }
 
 @media (max-width: $break) {
@@ -143,7 +126,8 @@
 	}
 
 	.m-stretch {
-		width: 100%;
+		// width: 100%;
+		flex: 1 1 100%;
 		grid-column-start: 1;
 		grid-column-end: -1;
 	}
@@ -170,11 +154,7 @@
 	line-height: 2.3rem;
 }
 
-
-
-.ellipsis-start::before {
-	content: "... ";
-}
+// Transparencies
 
 .blue-trns {
 	background-color: rgba(206, 223, 242, 0.33);
@@ -192,10 +172,19 @@
 	background-color: rgba(238, 238, 238, 0.33);
 }
 
-.shrink {
-	font-size: 95%;
+.blue-trns-dark {
+	background-color: rgba(206, 223, 242, 0.67);
 }
 
-.clear {
-	clear: both;
+.green-trns-dark {
+	background-color: rgba(206, 242, 224, 0.67);
 }
+
+.purple-trns-dark {
+	background-color: rgba(221, 206, 242, 0.67);
+}
+
+.grey-trns-dark {
+	background-color: rgba(238, 238, 238, 0.67);
+}
+
