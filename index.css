@@ -645,8 +645,16 @@ flex-33 {
   margin-left: auto;
 }
 
+.mrg-left-rem {
+  margin-left: 1rem;
+}
+
 .mrg-right {
   margin-right: auto;
+}
+
+.mrg-right-rem {
+  margin-rigt: 1rem;
 }
 
 .mrg-top {
@@ -906,7 +914,7 @@ li::before {
 
 .small-port {
   width: 120px;
-  height: 155px;
+  object-fit: contain;
 }
 
 .small-land {

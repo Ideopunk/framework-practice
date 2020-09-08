@@ -104,7 +104,8 @@ li::before {
 
 .small-port {
     width: 120px;
-    height: 155px;
+    // height: 155px;
+    object-fit: contain;
 }
 
 .small-land {
