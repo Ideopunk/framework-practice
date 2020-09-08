@@ -382,6 +382,7 @@ img {
 
 .active-tab {
   padding: 0.25rem 0.5rem;
+  border-left: 1px solid rgba(143, 143, 143, 0.2);
   display: flex;
   align-items: flex-end;
   font-size: 13px;
@@ -391,6 +392,7 @@ img {
   padding: 0.25rem 0.5rem;
   display: flex;
   align-items: flex-end;
+  border-left: 1px solid rgba(143, 143, 143, 0.2);
   border-bottom: 1px solid #a7d7f9;
   background-color: rgba(0, 0, 0, 0);
   background-attachment: scroll;
@@ -398,6 +400,10 @@ img {
   background-image: linear-gradient(to bottom, rgba(167, 215, 249, 0) 0, #eef7ff 100%);
   background-size: 100% 100%;
   font-size: 13px;
+}
+
+.tab:nth-last-child(2) {
+  border-right: 1px solid rgba(143, 143, 143, 0.2);
 }
 
 .tab > * {
@@ -546,6 +552,17 @@ flex-33 {
   color: #e6e6e6;
 }
 
+.spacer {
+  width: 100px;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #f5f5f5 100%);
+  background-size: 100% 100%;
+}
+
 .border-test {
   border: 1px solid #cccccc;
 }
@@ -655,17 +672,6 @@ flex-33 {
   padding-bottom: 1rem;
 }
 
-.spacer {
-  width: 100px;
-  flex: 1;
-  background-color: rgba(0, 0, 0, 0);
-  box-sizing: border-box;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #f5f5f5 100%);
-  background-size: 100% 100%;
-}
-
 .wrap {
   flex-wrap: wrap;
 }
@@ -680,7 +686,7 @@ flex-33 {
 
 @media (max-width: 767px) {
   .m-hide {
-    display: none;
+    display: none !important;
   }
 
   .m-stretch {
@@ -742,6 +748,11 @@ flex-33 {
   box-sizing: border-box;
   margin-left: 0.5rem;
   width: 10rem;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #f5f5f5 10%);
+  background-size: 100% 100%;
 }
 
 #welcome-banner {
@@ -881,6 +892,11 @@ li::before {
 .bul-ul {
   list-style-type: disc;
   list-style-position: inside;
+  padding-left: 0.5rem;
+}
+
+.bul-ul > li {
+  margin-bottom: 1.4px;
 }
 
 .redCoordinate {

@@ -108,16 +108,7 @@
 	padding-bottom: 1rem;
 }
 
-.spacer {
-	width: 100px;
-	flex: 1;
-	background-color: rgba(0, 0, 0, 0);
-	box-sizing: border-box;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0,#f5f5f5 100%);
-    background-size: 100% 100%;
-}
+
 
 .wrap {
 	flex-wrap: wrap;
@@ -141,7 +132,7 @@
 
 @media (max-width: $break) {
 	.m-hide {
-		display: none;
+		display: none !important;
 	}
 
 	.m-stretch {
